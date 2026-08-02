@@ -341,3 +341,15 @@ if barstate.islast
 alertcondition(newLong,             "LSS Long",  "EV LSS — LONG {{ticker}} {{interval}}")
 alertcondition(newShort,            "LSS Short", "EV LSS — SHORT {{ticker}} {{interval}}")
 alertcondition(newLong or newShort, "LSS Any",   "EV LSS — Signal {{ticker}} {{interval}}")
+
+//--------------------------------------- Script Finish ----------------------------------------- 
+
+
+// ---------------------------------------------- SETTING ---------------------------------------------------------------
+
+Swing Length : 3
+Max Liq Levels : 10
+SL ATR Buffer : 0.1
+R:R Ratio : 3
+Expire setup after N bars : 30
+Stats: Last N Signals : 55
