@@ -1,0 +1,10 @@
+All script inside run common setting 
+
+// ---------------------------------------------- SETTING ---------------------------------------------------------------
+
+Swing Length : 3
+Max Liq Levels : 10
+SL ATR Buffer : 0.1
+R:R Ratio : 3
+Expire setup after N bars : 30
+Stats: Last N Signals : 55
