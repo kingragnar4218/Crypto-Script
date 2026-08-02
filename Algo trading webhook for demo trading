@@ -1,0 +1,5 @@
+
+Copy and paste this template into the alert message box ( first ) :-- {"symbol":"{{ticker}}","side":"{{strategy.order.action}}","qty":"{{strategy.order.contracts}}","trigger_time":"{{timenow}}","strategy_id":"2393ec46c2ca16bf60a5d5fb14542b8f"}
+
+Copy the Webhook URL below, go to the "Notifications" tab, enable "Webhook URL", and paste it. ( second ) ::-- 
+https://cdn-ind.testnet.deltaex.org/v2/webhook_alert/2393ec46c2ca16bf60a5d5fb14542b8f
